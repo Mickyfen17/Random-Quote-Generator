@@ -1,0 +1,63 @@
+/** {
+	border: 1px solid red;
+}*/
+
+body {
+	padding-top: 100px;
+	background-color: #407F7F;
+	font-family: Roboto, sans-serif;
+}
+
+.jumbotron {
+	background-color: white;
+}
+/*Remove margin from row that contains the icons and buttons*/
+div#buttons.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+/*Author test styling*/
+#author {
+	font-style: italic;
+}
+/*Twitter icon styling and hover*/
+#Twitter {
+	color: #32CCFE;
+	float: left;
+	padding-right: 4px;
+	opacity: 1;
+}
+#Twitter:hover {
+	color: #32CCFE;
+	opacity: 0.8;
+}
+/*Facebook icon styling and hover*/
+#Facebook {
+	color: #3b5998;
+	float: left;
+	padding-right: 4px;
+	opacity: 1;
+}
+#Facebook:hover {
+	color: #3b5998;
+	opacity: 0.8;
+}
+/*New quote button styling*/
+#New-Quote {
+	float: right;
+	margin-top: 4px;
+	background: #f6f5f2;
+}
+#New-Quote:focus {
+	background: #f6f5f2;
+}
+/*My name, codepen & github account links styling and hover*/
+.my-links, .fa-codepen, .fa-github {
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+	opacity: 0.9;
+}
+.fa-codepen:hover, .fa-github:hover {
+	color: black;
+}
