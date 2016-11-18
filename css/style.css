@@ -30,6 +30,7 @@ div#buttons.row {
 #Twitter:hover {
 	color: #32CCFE;
 	opacity: 0.8;
+	cursor: pointer
 }
 /*Facebook icon styling and hover*/
 #Facebook {
@@ -41,6 +42,7 @@ div#buttons.row {
 #Facebook:hover {
 	color: #3b5998;
 	opacity: 0.8;
+	cursor: pointer;
 }
 /*New quote button styling*/
 #New-Quote {
